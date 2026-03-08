@@ -23,9 +23,14 @@ GreyTracks 是一款跨浏览器的划词翻译插件，支持 Chrome 和 Firefo
 -------------------------------------------------------------------------------
 
 Firefox浏览器加载方法：
+4. 解压压缩包
+5. 点击 "加载已解压的扩展程序" ，选择reytracks-chrome\chrome 加载即可
+6. #选择插件的 `dist/chrome` 目录
+
 7. 对于 Firefox 浏览器，打开 `about:debugging#/runtime/this-firefox`
 8. 点击 "临时载入附加组件"
 9. 选择插件的 `dist/firefox` 目录中的 `manifest.json` 文件
+
 
 ## 百度翻译 API 配置方法
 
