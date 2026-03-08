@@ -31,7 +31,7 @@ Firefox浏览器加载方法：
 4. 选择插件的 `dist/firefox` 目录中的 `manifest.json` 文件即可
 
 
-## 百度翻译 API 配置方法
+## 百度翻译 API 配置方法 (这个也是免费的，注册开通瞎填，填写IP即可)
 
 1. 访问 [百度翻译开放平台](https://fanyi-api.baidu.com/)
 2. 注册并登录百度账号
