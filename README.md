@@ -73,17 +73,6 @@ dist/                # 构建输出目录
 3. 构建插件：`npm run build`
 4. 构建后的文件会生成在 `dist` 目录中
 
-## 打包成ZIP方法
-
-1. 构建项目：`npm run build`
-2. 打包成ZIP：`npm run package`
-3. 打包后的ZIP文件会生成在 `dist` 目录中：
-   - Chrome版本：`dist/greytracks-chrome.zip`
-   - Firefox版本：`dist/greytracks-firefox.zip`
-
-   也可以单独打包某个浏览器版本：
-   - 只打包Chrome版本：`npm run package:chrome`
-   - 只打包Firefox版本：`npm run package:firefox`
 
 ## 贡献
 
