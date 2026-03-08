@@ -1,4 +1,4 @@
-# GreyTracks 划词翻译插件(开源免费)
+# Chrome 与 FireFox 浏览器翻译插件(开源免费)
 
 ## 项目介绍
 
