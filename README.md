@@ -35,9 +35,9 @@ Firefox浏览器加载方法：
 
 1. 访问 [百度翻译开放平台](https://fanyi-api.baidu.com/)
 2. 注册并登录百度账号
-3. 创建一个新的应用，获取 APP ID 和 API Key
+3. 创建一个新的应用，获取 APP ID 和 API 密钥
 4. 在插件的设置页面中，选择 "翻译服务" 为 "百度翻译 API"
-5. 输入获取到的 APP ID 和 API Key
+5. 输入获取到的 APP ID 和 API 密钥
 6. 点击 "保存设置" 按钮
 
 ## 配置选项说明
