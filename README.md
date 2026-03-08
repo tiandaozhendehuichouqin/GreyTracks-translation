@@ -11,8 +11,8 @@ GreyTracks 是一款跨浏览器的划词翻译插件，支持 Chrome 和 Firefo
 - 快捷键翻译：使用 Alt+Z 快捷键可以快速翻译选中的文本
 - 百度翻译 API 配置：可配置使用百度翻译 API 获得更准确的翻译结果
 
-## 安装方法
-
+## 安装方法  (安装包在Releases里下载)
+谷歌浏览器加载方法：
 1. 下载插件的 ZIP 包
 2. 在 Chrome 浏览器中，打开 `chrome://extensions/`
 3. 开启右上角的 "开发者模式"
@@ -20,6 +20,8 @@ GreyTracks 是一款跨浏览器的划词翻译插件，支持 Chrome 和 Firefo
 5. 点击 "加载已解压的扩展程序" ，选择reytracks-chrome\chrome 加载即可
 6. #选择插件的 `dist/chrome` 目录
 
+-------------------------------------------------------------------------------
+Firefox浏览器加载方法：
 7. 对于 Firefox 浏览器，打开 `about:debugging#/runtime/this-firefox`
 8. 点击 "临时载入附加组件"
 9. 选择插件的 `dist/firefox` 目录中的 `manifest.json` 文件
