@@ -39,6 +39,8 @@ Firefox浏览器加载方法：
 4. 在插件的设置页面中，选择 "翻译服务" 为 "百度翻译 API"
 5. 输入获取到的 APP ID 和 API 密钥
 6. 点击 "保存设置" 按钮
+7. <img width="1696" height="1286" alt="image" src="https://github.com/user-attachments/assets/36ba64a0-0835-4112-8974-59bd1b35fde4" />
+
 
 ## 配置选项说明
 
