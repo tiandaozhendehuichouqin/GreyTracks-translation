@@ -1,0 +1,138 @@
+/* 翻译按钮样式 */
+.translator-button {
+  position: fixed;
+  z-index: 1000000;
+  width: 32px;
+  height: 32px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+  transition: all 0.2s ease;
+  opacity: 0;
+}
+
+.translator-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 16px rgba(102, 126, 234, 0.5);
+}
+
+.translator-button:active {
+  transform: scale(0.95);
+}
+
+/* 翻译卡片样式 */
+.translator-popup {
+  position: fixed;
+  z-index: 1000000;
+  max-width: 500px;
+  min-width: 200px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  overflow: hidden;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 16px;
+}
+
+.translator-popup-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.translator-popup-original {
+  padding: 12px;
+  background: #f5f5f5;
+  border-radius: 8px;
+  border-left: 3px solid #f5f5f5;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.translator-popup-translated {
+  padding: 12px;
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f8 100%);
+  border-radius: 8px;
+  border-left: 3px solid #764ba2;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.translator-popup-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 20px;
+  color: #888;
+  font-size: 14px;
+}
+
+/* 加载动画 */
+.translator-spinner {
+  width: 20px;
+  height: 20px;
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #667eea;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* 滚动条样式 */
+.translator-popup-original::-webkit-scrollbar,
+.translator-popup-translated::-webkit-scrollbar {
+  width: 6px;
+}
+
+.translator-popup-original::-webkit-scrollbar-track,
+.translator-popup-translated::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.translator-popup-original::-webkit-scrollbar-thumb,
+.translator-popup-translated::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}
+
+.translator-popup-original::-webkit-scrollbar-thumb:hover,
+.translator-popup-translated::-webkit-scrollbar-thumb:hover {
+  background: #a1a1a1;
+}
+
+/* 响应式设计 */
+@media (max-width: 480px) {
+  .translator-popup {
+    max-width: 90vw;
+    min-width: 280px;
+  }
+  
+  .translator-button {
+    width: 36px;
+    height: 36px;
+  }
+}

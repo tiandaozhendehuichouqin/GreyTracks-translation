@@ -1,0 +1,10 @@
+{
+  "extensionName": {
+    "message": "划词翻译",
+    "description": "浏览器插件名称"
+  },
+  "extensionDescription": {
+    "message": "跨浏览器划词翻译插件，支持 Chrome 和 Firefox",
+    "description": "浏览器插件描述"
+  }
+}
