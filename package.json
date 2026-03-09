@@ -1,6 +1,6 @@
 {
   "name": "browser-translator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "跨浏览器划词翻译插件 - 支持 Chrome 和 Firefox",
   "main": "src/background/background.js",
   "scripts": {
